@@ -1,0 +1,120 @@
+/* Light Mode Styles with White and Yellow Theme */
+.bg-light-mode {
+    background: linear-gradient(180deg, #fff 0%, #f2c93b 100%); /* White to Yellow */
+}
+
+.main-card-light {
+    background: linear-gradient(135deg, #fffbea 0%, #f2c93b 100%); /* Off-white to Yellow */
+    box-shadow: 0 4px 8px rgba(178, 94, 25, 0.5);
+    transition: transform 0.8s, box-shadow 0.8s, background 0.8s;
+}
+
+.main-card-light:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(180deg, #ffffff 0%, #f2c93b 100%);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.hover-button-light {
+    background-color: #f2c93b; /* Yellow */
+    color: #ffffff; /* White text */
+    transition: background-color 0.8s, color 0.8s, transform 0.3s;
+}
+
+.hover-button-light:hover {
+    background: linear-gradient(135deg, #ffffff 0%, #f2c93b 100%);
+    color: #333333;
+    transform: scale(1.05);
+}
+
+.text-light-mode {
+    color: #f2c93b; /* Yellow */
+    font-weight: bold;
+}
+
+/* Dark Mode Styles with White and Yellow Theme */
+.bg-dark-mode {
+    background: linear-gradient(180deg, #f2c93b 0%, #ffffff 100%); /* Yellow to White */
+    background-size: cover;
+}
+
+.main-card-dark {
+    background: linear-gradient(180deg, #f2c93b 0%, #ffffff 100%); /* Yellow to White */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.8s, box-shadow 0.8s, background 0.8s;
+}
+
+.main-card-dark:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(90deg, #ffffff 0%, #f2c93b 100%);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.hover-button-dark {
+    background: linear-gradient(135deg, #f2c93b 0%, #ffffff 100%); /* Yellow to White */
+    color: #333333;
+    transition: background-color 0.8s, color 0.8s, transform 0.3s;
+}
+
+.hover-button-dark:hover {
+    background: linear-gradient(135deg, #ffffff 0%, #f2c93b 100%);
+    color: #333333;
+    transform: scale(1.04);
+}
+
+.text-dark-mode {
+    color: #f2c93b; /* Yellow */
+}
+
+/* Pet Card and Button Common Styles */
+.pet-card-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-card {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: #ffffff;
+    transition: background 0.8s;
+}
+
+.card-img-size {
+   width: 320px;
+   height: 320px;
+   border-bottom: 2px solid #f2c93b; /* Yellow border for cards */
+}
+
+.main-text {
+    padding: 20px;
+    color: #333333; /* Dark text */
+}
+
+.hover-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f2c93b; /* Yellow */
+    color: #ffffff; /* White text */
+    transition: background-color 0.8s, color 0.8s, transform 0.3s;
+}
+
+.hover-button:hover {
+    background-color: #ffffff; /* White background on hover */
+    color: #f2c93b; /* Yellow text on hover */
+    border: 1px solid #f2c93b;
+}
+
+@media screen and (max-width: 768px) {
+    .pet-card-flex {
+        align-items: center;
+    }
+
+    .main-card {
+        max-width: 400px;
+    }
+}
