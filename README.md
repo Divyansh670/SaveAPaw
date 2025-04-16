@@ -6,7 +6,7 @@ SaveAPaw is a compassionate pet adoption and awareness web platform built to hel
 
 ## 🚀 Live Demo
 
-👉 **[Click here to view the live site](https://your-deployed-url.netlify.app/)**  
+👉 **[Click here to view the live site](https://save-a-paw-p6uo.vercel.app/)**  
 
 
 ---
@@ -34,7 +34,13 @@ SaveAPaw is a compassionate pet adoption and awareness web platform built to hel
 ---
 
 ## 📷 Screenshots (Optional)
-
+![1st](<Screenshot (3545).png>) 
+![2nd](<Screenshot (3539).png>) 
+![3rd](<Screenshot (3540).png>) 
+![4th](<Screenshot (3541).png>) 
+![5th](<Screenshot (3542).png>) 
+![6th](<Screenshot (3543).png>) 
+![7th](<Screenshot (3544).png>)
 > Add some cool screenshots or GIFs showing the homepage, adopt section, and SOS form here.
 
 ---
