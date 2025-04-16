@@ -26,10 +26,10 @@ SaveAPaw is a compassionate pet adoption and awareness web platform built to hel
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS, Tailwind CSS, JavaScript, Alpine.js  
-- **Design Tools**: Figma, Canva (for images & UI assets)  
-- **Deployment**: Netlify / GitHub Pages / Vercel  
-- **Backend**: Firebase / Node.js for data handling 
+- **Frontend**: HTML, CSS, Tailwind CSS, JavaScript, Alpine.js .
+- **Design Tools**: Figma, Canva (for images & UI assets) .
+- **Deployment**: Netlify / GitHub Pages / Vercel .
+- **Backend**: Firebase / Node.js for data handling .
 
 ---
 
